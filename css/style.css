@@ -48,6 +48,8 @@ img {
 	max-width: var(--inner-width);
 	padding-top: 10px;
 	padding-bottom: 10px;
+	padding-right: 16px;
+	padding-left: 16px;
 	margin: 0 auto;
 }
 
@@ -58,7 +60,7 @@ img {
 
 .gnav-list {
 	display: flex;
-	
+	justify-content: space-around;
 }
 
 .gnav-item {
